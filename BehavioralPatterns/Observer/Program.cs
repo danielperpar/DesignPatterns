@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Observer.Observer;
+using Observer.Subject;
+using System;
 
 namespace Observer
 {
@@ -6,7 +8,12 @@ namespace Observer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var subject = new ConcreteSubject();
+            subject.Attach(new ConcreteObserver());
+
+            Console.WriteLine("Client: subject state is {0}", subject.State);
+            subject.SomeBusinessLogic();
+            Console.WriteLine("Client: subject state is {0}", subject.State);
         }
     }
 }
