@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "StructuralPatt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "CreationalPatterns\FactoryMethod\FactoryMethod.csproj", "{369E7296-B751-4634-91E1-E96D4C6F415B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{6570FC4F-08BA-4850-ADB6-6AEDBD05B6B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{6570FC4F-08BA-4850-ADB6-6AEDBD05B6B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{F775C39D-45DE-41D8-8EED-45BFF267776E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{6570FC4F-08BA-4850-ADB6-6AEDBD05B6B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6570FC4F-08BA-4850-ADB6-6AEDBD05B6B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6570FC4F-08BA-4850-ADB6-6AEDBD05B6B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F775C39D-45DE-41D8-8EED-45BFF267776E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F775C39D-45DE-41D8-8EED-45BFF267776E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F775C39D-45DE-41D8-8EED-45BFF267776E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F775C39D-45DE-41D8-8EED-45BFF267776E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{F521E595-CAC3-47CF-B7C3-CC989244A0D5} = {4AD3A4CC-6CBD-4F1F-ADC7-D0C449FB012D}
 		{369E7296-B751-4634-91E1-E96D4C6F415B} = {FF325E27-3A3F-4B99-A4EF-41A4A67CA043}
 		{6570FC4F-08BA-4850-ADB6-6AEDBD05B6B1} = {072D4F20-8575-4F52-BC24-C4BCB1B0B47C}
+		{F775C39D-45DE-41D8-8EED-45BFF267776E} = {072D4F20-8575-4F52-BC24-C4BCB1B0B47C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBB75304-4F1D-431A-886B-D862BCB5BF96}
